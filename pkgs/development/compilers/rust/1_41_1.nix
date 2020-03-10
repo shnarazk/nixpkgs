@@ -17,7 +17,7 @@
 } @ args:
 
 import ./default.nix {
-  rustcVersion = "1.41.0";
+  rustcVersion = "1.41.1";
   rustcSha256 = "0jypz2mrzac41sj0zh07yd1z36g2s2rvgsb8g624sk4l14n84ijm";
 
   # Note: the version MUST be one version prior to the version we're
@@ -35,7 +35,7 @@ import ./default.nix {
     x86_64-apple-darwin = "749ca5e0b94550369cc998416b8854c13157f5d11d35e9b3276064b6766bcb83";
   };
 
-  selectRustPackage = pkgs: pkgs.rust_1_41_0;
+  selectRustPackage = pkgs: pkgs.rust_1_41_1;
 
   rustcPatches = [
     (fetchpatch {
