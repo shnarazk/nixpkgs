@@ -18,7 +18,7 @@
 
 import ./default.nix {
   rustcVersion = "1.41.1";
-  rustcSha256 = "0jypz2mrzac41sj0zh07yd1z36g2s2rvgsb8g624sk4l14n84ijm";
+  rustcSha256 = "0ws5x0fxv57fyllsa6025h3q6j9v3m8nb3syl4x0hgkddq0kvj9q";
 
   # Note: the version MUST be one version prior to the version we're
   # building
