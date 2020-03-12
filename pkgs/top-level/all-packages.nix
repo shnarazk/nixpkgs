@@ -21919,6 +21919,7 @@ in
 
   thunderbird = callPackage ../applications/networking/mailreaders/thunderbird {
     inherit (gnome2) libIDL;
+    inherit (rustPackages_1_42_0) cargo rustc;
     libpng = libpng_apng;
     gtk3Support = true;
   };
