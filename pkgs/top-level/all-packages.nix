@@ -5561,6 +5561,8 @@ in
 
   openjade = callPackage ../tools/text/sgml/openjade { };
 
+  openimagedenoise = callPackage ../development/libraries/openimagedenoise { };
+
   openmvg = callPackage ../applications/science/misc/openmvg { };
 
   openmvs = callPackage ../applications/science/misc/openmvs { };
@@ -6853,7 +6855,7 @@ in
 
   textadept = callPackage ../applications/editors/textadept { };
 
-  texworks = callPackage ../applications/editors/texworks { };
+  texworks = libsForQt5.callPackage ../applications/editors/texworks { };
 
   thc-hydra = callPackage ../tools/security/thc-hydra { };
 
@@ -18845,6 +18847,7 @@ in
   docker-gc = callPackage ../applications/virtualization/docker/gc.nix { };
 
   docker-machine = callPackage ../applications/networking/cluster/docker-machine { };
+  docker-machine-hyperkit = callPackage ../applications/networking/cluster/docker-machine/hyperkit.nix { };
   docker-machine-kvm = callPackage ../applications/networking/cluster/docker-machine/kvm.nix { };
   docker-machine-kvm2 = callPackage ../applications/networking/cluster/docker-machine/kvm2.nix { };
   docker-machine-xhyve = callPackage ../applications/networking/cluster/docker-machine/xhyve.nix {
@@ -20136,6 +20139,8 @@ in
 
   kubeval = callPackage ../applications/networking/cluster/kubeval { };
 
+  kubeval-schema = callPackage ../applications/networking/cluster/kubeval/schema.nix { };
+
   kubernetes = callPackage ../applications/networking/cluster/kubernetes {
     go = buildPackages.go_1_13;
   };
@@ -20540,6 +20545,8 @@ in
   mopidy-musicbox-webclient = callPackage ../applications/audio/mopidy/musicbox-webclient.nix { };
 
   mopidy-iris = callPackage ../applications/audio/mopidy/iris.nix { };
+
+  mopidy-mpd = callPackage ../applications/audio/mopidy/mpd.nix { };
 
   motif = callPackage ../development/libraries/motif { };
 

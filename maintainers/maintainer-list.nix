@@ -711,6 +711,12 @@
     githubId = 55833;
     name = "Troels Henriksen";
   };
+  atkinschang = {
+    email = "atkinschang+nixpkgs@gmail.com";
+    github = "AtkinsChang";
+    githubId = 5193600;
+    name = "Atkins Chang";
+  };
   atnnn = {
     email = "etienne@atnnn.com";
     github = "atnnn";
@@ -4141,6 +4147,12 @@
     email = "leonardo.cecchi@gmail.com";
     github = "leonardoce";
     name = "Leonardo Cecchi";
+  };
+  leshainc = {
+    email = "leshainc@fomalhaut.me";
+    github = "LeshaInc";
+    githubId = 42153076;
+    name = "Alexey Nikashkin";
   };
   lethalman = {
     email = "lucabru@src.gnome.org";
