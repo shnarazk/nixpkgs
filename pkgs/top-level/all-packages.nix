@@ -24747,6 +24747,8 @@ in
     coqPackages      coq
   ;
 
+  cadical = callPackage ../applications/science/logic/cadical { };
+
   coq2html = callPackage ../applications/science/logic/coq2html { };
 
   cryptoverif = callPackage ../applications/science/logic/cryptoverif { };
