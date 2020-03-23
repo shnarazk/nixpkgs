@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   # nativeBuildInputs = [ make ];
   buildInputs = [ zlib ];
   installPhase = ''
-    install -Dm0755 build/cadical $out/bin/cadical
+    install -Dm0755 build/{cadical,mobical} $out/bin/cadical
     mkdir -p "$out/share/doc/${pname}-${version}/"
     install -Dm0755 {LICEN?E,README*,VERSION} "$out/share/doc/${pname}-${version}/"
   '';
